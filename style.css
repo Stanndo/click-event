@@ -1,0 +1,10 @@
+body{
+    background-color: whitesmoke;
+}
+
+#figure {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    display: none;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Click</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Start the click event!</h2>
+        <h3>Press Start </h3>
+        <button type="button" id="start">Start</button>
+        <div id="figure"></div>
+
+        <script> 
+
+            function showfigure(){
+               
+               if(Math.random() < 0.5 ){
+                    document.getElementById("figure").style = "display: block; border-radius: 50%";
+                    //document.write("hello");
+               }else{
+                    document.getElementById("figure").style = "display: block";
+               }   
+
+               //document.getElementById("figure").style = "display: block; border-radius: 50%";
+            }
+
+            document.getElementById("start").onclick = function(){
+
+                showfigure();
+
+            }
+
+        </script>
+
+    </body>
+
+</html>
